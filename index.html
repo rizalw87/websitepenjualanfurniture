@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StoolMart - Minimalist Furniture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=block" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* Critical Anti-Glitch Styles */
+    .hero-header,
+    .hero-image-wrapper,
+    .big-text,
+    .detail-block,
+    .feature-card,
+    .product-card {
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container nav-container">
+      <a href="#" class="logo">StoolMart</a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-icons">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-shopping-bag"></i></a>
+        <div class="mobile-toggle" id="mobile-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-container relative">
+        <div class="hero-header text-center">
+          <h1 class="main-title">Elevate Your Space with Minimalist Bar</h1>
+        </div>
+
+        <div class="hero-visual">
+          <div class="big-text">STOOLS</div>
+          <div class="hero-image-wrapper">
+            <img src="/images/hero_new.png" alt="Minimalist Bar Stool" class="main-stool">
+          </div>
+
+          <div class="hero-details">
+            <div class="detail-block left-block">
+              <h3>Simplicity is the Ultimate Sophistication</h3>
+              <p>Introducing our collection of minimal bar stools designed to transform your living spaces.</p>
+              <div class="cta-group">
+                <a href="products.html" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+
+            <div class="detail-block right-block">
+              <div class="feature-tag">
+                <img src="/images/p1.png" class="mini-thumb" alt="Wooden">
+                <span>Wooden Barstools</span>
+              </div>
+              <div class="feature-tag">
+                <span>Metal Bar Stools</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="about" class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Choose Us</h2>
+          <p>Crafting simplicity, defining elegance.</p>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-couch"></i>
+            </div>
+            <h3>Minimalist Elegance</h3>
+            <p>Designs that blend seamlessly into any modern interior.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Quality Craftsmanship</h3>
+            <p>Built to last with premium sustainable materials.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-shipping-fast"></i>
+            </div>
+            <h3>Fast Delivery</h3>
+            <p>Get your dream furniture delivered to your doorstep in no time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+      <div class="container">
+        <div class="section-header">
+          <h2>Explore Our Collection</h2>
+          <p>Curated minimalist bar stools for your home.</p>
+        </div>
+
+        <div class="product-grid">
+          <!-- Product 1 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/images/p1.png" alt="EcoZen Bar Stool">
+            </div>
+            <div class="product-info">
+              <h3>EcoZen Bar Stool</h3>
+              <p>Crafted from reclaimed wood</p>
+              <div class="price-row">
+                <span class="price">$149.00</span>
+                <button class="btn btn-primary btn-sm">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/images/p2.png" alt="UrbanSwivel Counter Stool">
+            </div>
+            <div class="product-info">
+              <h3>UrbanSwivel Stool</h3>
+              <p>Sleek urban metal design</p>
+              <div class="price-row">
+                <span class="price">$189.00</span>
+                <button class="btn btn-primary btn-sm">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/images/p3.png" alt="SereneSculpt Bar Chair">
+            </div>
+            <div class="product-info">
+              <h3>SereneSculpt Chair</h3>
+              <p>Art of seating with curves</p>
+              <div class="price-row">
+                <span class="price">$229.00</span>
+                <button class="btn btn-primary btn-sm">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="container newsletter-content">
+        <h2>Subscribe Our Newsletter</h2>
+        <p>Join our newsletter for the latest updates on our organic soft pouf sofas.</p>
+        <form class="input-group">
+          <input type="email" name="email" placeholder="Enter Email Address" required>
+          <button type="submit" class="btn btn-primary" style="border-radius: 0 50px 50px 0;">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Buttons -->
+  <a href="#" class="floating-btn back-to-top" id="backToTop" aria-label="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <a href="https://wa.me/628123456789" class="floating-btn whatsapp-btn" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">StoolMart</a>
+          <p>The contrast between those elements creates a highly unique modern look.</p>
+          <div class="social-links" style="margin-top: 20px;">
+            <a href="https://www.instagram.com" target="_blank" style="margin-right: 15px;"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank" style="margin-right: 15px;"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" style="margin-right: 15px;"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">Partnership</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">ar-shakir.com</a></li>
+            <li><a href="#">+1564-644-5965</a></li>
+            <li><a href="#">Los Angeles, CA</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2026 StoolMart All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
