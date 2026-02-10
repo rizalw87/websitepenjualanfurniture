@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - StoolMart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">StoolMart</a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="#" class="active" style="color: var(--color-primary-dark); font-weight: 700;">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="nav-icons">
+                <div class="mobile-toggle" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Blog Hero -->
+        <section class="blog-hero"
+            style="background-color: var(--color-bg); padding-top: 90px; padding-bottom: 60px; text-align: center;">
+            <div class="container">
+                <h1 class="main-title" style="margin-bottom: 20px;">Our Latest Stories</h1>
+                <p style="max-width: 600px; margin: 0 auto; color: var(--color-text-muted);">
+                    Insights into minimalist living, interior design tips, and updates from the StoolMart team.
+                </p>
+            </div>
+        </section>
+
+        <!-- blog Posts Section -->
+        <section class="blog-posts" style="padding-bottom: 100px;">
+            <div class="container">
+                <div class="blog-grid">
+                    <!-- Post 1 -->
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="images/merbabu_hero_landscape_1770254204504.jpg" alt="Gunung Merbabu">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-date">February 05, 2026</span>
+                            <h3>Catatan Pendakian Gunung Merbabu via Suwanting</h3>
+                            <p>Kisah perjalanan menantang mendaki Merbabu melalui jalur ekstrem Suwanting, menghadapi
+                                badai dan menjelajahi Punggung Naga.</p>
+                            <a href="artikel1.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Post 2 -->
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1470&auto=format&fit=crop"
+                                alt="Gunung Kawi">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-date">January 20, 2024</span>
+                            <h3>Tektok Gunung Kawi: Ekspektasi Healing, Realita Overthinking</h3>
+                            <p>Kisah nekat tektok Gunung Kawi. Ekspektasi healing yang berujung panic attack gara-gara
+                                kabut tebal dan jalur yang hilang.</p>
+                            <a href="artikel2.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Post 3 -->
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="images/p3.png" alt="Color Palette">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-date">March 05, 2026</span>
+                            <h3>Choosing the Perfect Palette</h3>
+                            <p>A guide to selecting warm, elegant colors that complement your minimalist furniture and
+                                enhance your space.</p>
+                            <a href="artikel3.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section"
+            style="background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%); padding: 80px 0; text-align: center; color: white;">
+            <div class="container">
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px; color: white;">Ready to Transform Your Space?</h2>
+                <p
+                    style="font-size: 1.1rem; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; opacity: 0.95;">
+                    Discover our collection of minimalist bar stools and elevate your interior design today.
+                </p>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <a href="products.html" class="btn"
+                        style="background-color: white; color: var(--color-primary-dark); padding: 15px 40px; font-weight: 600;">Shop
+                        Now</a>
+                    <a href="https://wa.me/628123456789" class="btn"
+                        style="background-color: transparent; color: white; border: 2px solid white; padding: 15px 40px; font-weight: 600;">Contact
+                        Us</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">StoolMart</a>
+                    <p>The contrast between those elements creates a highly unique modern look.</p>
+                    <div class="social-links" style="margin-top: 20px;">
+                        <a href="https://www.instagram.com" target="_blank" style="margin-right: 15px;"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com" target="_blank" style="margin-right: 15px;"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="_blank" style="margin-right: 15px;"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="partnership.html">Partnership</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="about-us.html">About</a></li>
+                        <li><a href="products.html">Features</a></li>
+                        <li><a href="support.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="https://ar-shakir.com" target="_blank">ar-shakir.com</a></li>
+                        <li><a href="tel:+15646445965">+1564-644-5965</a></li>
+                        <li><a href="https://maps.google.com/?q=Los+Angeles,+CA" target="_blank">Los Angeles, CA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 StoolMart All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+<!-- Floating Buttons -->
+<a href="#" class="floating-btn back-to-top" id="backToTop" aria-label="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+</a>
+<a href="https://wa.me/628123456789" class="floating-btn whatsapp-btn" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+</html>

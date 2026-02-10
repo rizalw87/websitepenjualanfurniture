@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StoolMart - Minimalist Furniture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=block" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Critical Anti-Glitch Styles */
+    .hero-header,
+    .hero-image-wrapper,
+    .big-text,
+    .detail-block,
+    .feature-card,
+    .product-card {
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container nav-container">
+      <a href="#" class="logo">StoolMart</a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active" style="color: var(--color-primary-dark); font-weight: 700;">Home</a>
+          </li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-icons">
+        <div class="mobile-toggle" id="mobile-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-container relative">
+        <div class="hero-header text-center">
+          <h1 class="main-title">Elevate Your Space with Minimalist Bar</h1>
+        </div>
+
+        <div class="hero-visual">
+          <div class="big-text">STOOLS</div>
+          <div class="hero-image-wrapper">
+            <img src="images/hero_new.png" alt="Minimalist Bar Stool" class="main-stool">
+          </div>
+
+          <div class="hero-details">
+            <div class="detail-block left-block">
+              <h3>Simplicity is the Ultimate Sophistication</h3>
+              <p>Introducing our collection of minimal bar stools designed to transform your living spaces.</p>
+              <div class="cta-group">
+                <a href="products.html" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+
+            <div class="detail-block right-block">
+              <div class="feature-tag">
+                <img src="images/p1.png" class="mini-thumb" alt="Wooden">
+                <span>Wooden Barstools</span>
+              </div>
+              <div class="feature-tag">
+                <span>Metal Bar Stools</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section" style="padding: 80px 0; background-color: var(--color-white);">
+      <div class="container">
+        <div class="about-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+          <div class="about-content">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px; color: var(--color-secondary);">Crafting Comfort with
+              Minimalism</h2>
+            <p style="font-size: 1.1rem; color: var(--color-text-muted); margin-bottom: 25px; line-height: 1.8;">
+              Di StoolMart, kami percaya bahwa furnitur bukan sekadar pengisi ruangan, melainkan elemen yang
+              meningkatkan kualitas hidup. Perjalanan kami dimulai dengan ide sederhana: "kurang itu lebih" (less is
+              more).
+            </p>
+            <p style="font-size: 1.1rem; color: var(--color-text-muted); margin-bottom: 30px; line-height: 1.8;">
+              Setiap produk kami dirancang dengan ketelitian tinggi, menggabungkan material premium dengan desain yang
+              fungsional dan tak lekang oleh waktu. Kami berkomitmen untuk menghadirkan kenyamanan dan ketenangan di
+              setiap hunian modern.
+            </p>
+            <a href="about-us.html" class="btn btn-outline">Learn More Our Story</a>
+          </div>
+          <div class="about-image" style="position: relative;">
+            <img src="images/p2.png" alt="StoolMart Craftsmanship"
+              style="border-radius: 30px; width: 100%; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+            <div
+              style="position: absolute; bottom: -20px; right: -20px; background: var(--color-primary); padding: 20px; border-radius: 20px; color: white; box-shadow: 0 10px 20px rgba(163, 201, 181, 0.4);">
+              <span style="display: block; font-size: 1.5rem; font-weight: 700;">5+ Years</span>
+              <span style="font-size: 0.9rem;">of Excellence</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Choose Us</h2>
+          <p>Crafting simplicity, defining elegance.</p>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-couch"></i>
+            </div>
+            <h3>Minimalist Elegance</h3>
+            <p>Designs that blend seamlessly into any modern interior.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Quality Craftsmanship</h3>
+            <p>Built to last with premium sustainable materials.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-shipping-fast"></i>
+            </div>
+            <h3>Fast Delivery</h3>
+            <p>Get your dream furniture delivered to your doorstep in no time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+      <div class="container">
+        <div class="section-header">
+          <h2>Explore Our Collection</h2>
+          <p>Curated minimalist bar stools for your home.</p>
+        </div>
+
+        <div class="product-grid">
+          <!-- Product 1 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/p1.png" alt="EcoZen Bar Stool">
+            </div>
+            <div class="product-info">
+              <h3>EcoZen Bar Stool</h3>
+              <p>Crafted from reclaimed wood</p>
+              <div class="price-row">
+                <span class="price">$149.00</span>
+                <button class="btn btn-primary btn-sm">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/p2.png" alt="UrbanSwivel Counter Stool">
+            </div>
+            <div class="product-info">
+              <h3>UrbanSwivel Stool</h3>
+              <p>Sleek urban metal design</p>
+              <div class="price-row">
+                <span class="price">$189.00</span>
+                <button class="btn btn-primary btn-sm">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/p3.png" alt="SereneSculpt Bar Chair">
+            </div>
+            <div class="product-info">
+              <h3>SereneSculpt Chair</h3>
+              <p>Art of seating with curves</p>
+              <div class="price-row">
+                <span class="price">$229.00</span>
+                <button class="btn btn-primary btn-sm">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/p1.png" alt="Nordic Light Stool">
+            </div>
+            <div class="product-info">
+              <h3>Nordic Light Stool</h3>
+              <p>Minimalist oak wood finish</p>
+              <div class="price-row">
+                <span class="price">$159.00</span>
+                <button class="btn btn-primary btn-sm">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-preview" style="background-color: var(--color-bg); padding: 80px 0;">
+      <div class="container">
+        <div class="section-header">
+          <h2>Latest from Our Blog</h2>
+          <p>Insights, stories, and tips for minimalist living</p>
+        </div>
+
+        <div class="blog-grid">
+          <!-- Blog Post 1 -->
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="images/merbabu_hero_landscape_1770254204504.jpg" alt="Gunung Merbabu">
+            </div>
+            <div class="blog-content">
+              <span class="blog-date">February 05, 2026</span>
+              <h3>Catatan Pendakian Gunung Merbabu via Suwanting</h3>
+              <p>Kisah perjalanan menantang mendaki Merbabu melalui jalur ekstrem Suwanting, menghadapi badai dan
+                menjelajahi Punggung Naga.</p>
+              <a href="artikel1.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Blog Post 2 -->
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1470&auto=format&fit=crop"
+                alt="Gunung Kawi">
+            </div>
+            <div class="blog-content">
+              <span class="blog-date">January 20, 2024</span>
+              <h3>Tektok Gunung Kawi: Ekspektasi Healing, Realita Overthinking</h3>
+              <p>Kisah nekat tektok Gunung Kawi. Ekspektasi healing yang berujung panic attack gara-gara kabut tebal dan
+                jalur yang hilang.</p>
+              <a href="artikel2.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <!-- Blog Post 3 -->
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="images/p3.png" alt="Color Palette">
+            </div>
+            <div class="blog-content">
+              <span class="blog-date">March 05, 2026</span>
+              <h3>Choosing the Perfect Palette</h3>
+              <p>A guide to selecting warm, elegant colors that complement your minimalist furniture and enhance your
+                space.</p>
+              <a href="artikel3.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+          <a href="blog.html" class="btn btn-primary">View All Posts</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section"
+      style="background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%); padding: 80px 0; text-align: center; color: white;">
+      <div class="container">
+        <h2 style="font-size: 2.5rem; margin-bottom: 20px; color: white;">Ready to Transform Your Space?</h2>
+        <p
+          style="font-size: 1.1rem; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; opacity: 0.95;">
+          Discover our collection of minimalist bar stools and elevate your interior design today.
+        </p>
+        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+          <a href="products.html" class="btn"
+            style="background-color: white; color: var(--color-primary-dark); padding: 15px 40px; font-weight: 600;">Shop
+            Now</a>
+          <a href="https://wa.me/628123456789" class="btn"
+            style="background-color: transparent; color: white; border: 2px solid white; padding: 15px 40px; font-weight: 600;">Contact
+            Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Buttons -->
+  <a href="#" class="floating-btn back-to-top" id="backToTop" aria-label="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <a href="https://wa.me/628123456789" class="floating-btn whatsapp-btn" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">StoolMart</a>
+          <p>The contrast between those elements creates a highly unique modern look.</p>
+          <div class="social-links" style="margin-top: 20px;">
+            <a href="https://www.instagram.com" target="_blank" style="margin-right: 15px;"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank" style="margin-right: 15px;"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" style="margin-right: 15px;"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="partnership.html">Partnership</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="products.html">Features</a></li>
+            <li><a href="support.html">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="https://ar-shakir.com" target="_blank">ar-shakir.com</a></li>
+            <li><a href="tel:+15646445965">+1564-644-5965</a></li>
+            <li><a href="https://maps.google.com/?q=Los+Angeles,+CA" target="_blank">Los Angeles, CA</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2026 StoolMart All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+  <!-- Product Modal -->
+  <div class="modal-overlay" id="productModal">
+    <div class="modal-container">
+      <div class="modal-close" id="closeModal">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="modal-image">
+        <img src="" alt="" id="modalImg">
+      </div>
+      <div class="modal-info">
+        <h2 id="modalTitle"></h2>
+        <div class="modal-price" id="modalPrice"></div>
+        <p id="modalDesc"></p>
+        <div class="modal-actions">
+          <button class="btn btn-primary" id="confirmOrder">Order via WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

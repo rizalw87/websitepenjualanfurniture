@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Catatan lengkap pendakian Gunung Merbabu via jalur Suwanting - Pengalaman menantang menghadapi badai dan menjelajahi Punggung Naga" />
+    <title>Catatan Pendakian Gunung Merbabu via Suwanting - StoolMart Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Article-specific styles */
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .article-hero {
+            padding-top: 90px;
+            padding-bottom: 40px;
+            background: linear-gradient(135deg, var(--color-bg) 0%, #e8f5e9 100%);
+        }
+
+        .article-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            color: var(--color-secondary);
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+
+        .article-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .hero-image-container {
+            width: 100%;
+            height: 500px;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .image-caption {
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-content {
+            background: var(--color-white);
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Table of Contents */
+        .toc-wrapper {
+            background: var(--color-bg);
+            border-left: 4px solid var(--color-primary);
+            padding: 25px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+        }
+
+        .toc-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .toc-header h3 {
+            font-size: 1.2rem;
+            margin: 0;
+            color: var(--color-secondary);
+        }
+
+        .toc-toggle {
+            font-size: 1.2rem;
+            color: var(--color-primary-dark);
+            transition: transform 0.3s ease;
+        }
+
+        .toc-toggle.collapsed {
+            transform: rotate(-90deg);
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            max-height: 500px;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .toc-list.collapsed {
+            max-height: 0;
+            margin-top: 0;
+        }
+
+        .toc-list li {
+            margin-bottom: 10px;
+        }
+
+        .toc-list a {
+            color: var(--color-text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            display: block;
+            padding: 5px 0;
+        }
+
+        .toc-list a:hover {
+            color: var(--color-primary-dark);
+            padding-left: 10px;
+        }
+
+        .toc-list .toc-h3 {
+            padding-left: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Article Typography */
+        .article-content h2 {
+            font-size: 1.8rem;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: var(--color-secondary);
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--color-border);
+        }
+
+        .article-content h3 {
+            font-size: 1.4rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: var(--color-primary-dark);
+        }
+
+        .article-content p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: var(--color-secondary);
+            font-size: 1.05rem;
+        }
+
+        .article-content blockquote {
+            background: linear-gradient(135deg, #f0f9f4 0%, #e8f5e9 100%);
+            border-left: 5px solid var(--color-primary);
+            padding: 25px 30px;
+            margin: 30px 0;
+            border-radius: 10px;
+            font-style: italic;
+            color: var(--color-secondary);
+        }
+
+        .article-content blockquote p {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+
+        /* Supporting Images */
+        .content-image {
+            width: 100%;
+            max-height: 450px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin: 30px 0 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Promo GIF */
+        .promo-banner {
+            width: 100%;
+            padding: 40px;
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+            border-radius: 15px;
+            text-align: center;
+            margin: 40px 0;
+            color: white;
+        }
+
+        .promo-banner h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--color-secondary);
+        }
+
+        .promo-banner p {
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+
+        /* Baca Juga Section */
+        .baca-juga {
+            background: var(--color-bg);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 40px 0;
+        }
+
+        .baca-juga h3 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: var(--color-secondary);
+        }
+
+        .baca-juga-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .baca-juga-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            background: var(--color-white);
+            border-radius: 10px;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .baca-juga-item:hover {
+            transform: translateX(10px);
+        }
+
+        .baca-juga-icon {
+            font-size: 1.5rem;
+            color: var(--color-primary-dark);
+        }
+
+        .baca-juga-text {
+            color: var(--color-secondary);
+            font-weight: 500;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            margin: 40px 0;
+        }
+
+        .faq-item {
+            background: var(--color-bg);
+            padding: 20px 25px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border-left: 4px solid var(--color-primary);
+        }
+
+        .faq-question {
+            font-weight: 700;
+            color: var(--color-secondary);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .faq-answer {
+            color: var(--color-text-muted);
+            line-height: 1.7;
+        }
+
+        /* Author Profile */
+        .author-profile {
+            background: linear-gradient(135deg, var(--color-bg) 0%, #f5f5f5 100%);
+            padding: 30px;
+            border-radius: 15px;
+            display: flex;
+            gap: 25px;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .author-avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--color-primary);
+        }
+
+        .author-info h4 {
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+            color: var(--color-secondary);
+        }
+
+        .author-bio {
+            color: var(--color-text-muted);
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .author-social {
+            display: flex;
+            gap: 15px;
+        }
+
+        .author-social a {
+            color: var(--color-primary-dark);
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .author-social a:hover {
+            color: var(--color-secondary);
+        }
+
+        /* Share Buttons */
+        .share-section {
+            background: var(--color-bg);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 40px 0;
+        }
+
+        .share-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: var(--color-secondary);
+        }
+
+        .share-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 24px;
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: transform 0.3s ease;
+        }
+
+        .share-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        .share-btn.facebook {
+            background: #1877f2;
+        }
+
+        .share-btn.twitter {
+            background: #1da1f2;
+        }
+
+        .share-btn.whatsapp {
+            background: #25d366;
+        }
+
+        .share-btn.linkedin {
+            background: #0077b5;
+        }
+
+        /* Related Articles */
+        .related-articles {
+            margin: 60px 0;
+        }
+
+        .related-articles h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            text-align: center;
+            color: var(--color-secondary);
+        }
+
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .related-card {
+            background: var(--color-white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .related-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .related-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .related-content {
+            padding: 20px;
+        }
+
+        .related-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: var(--color-secondary);
+        }
+
+        .related-content p {
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .related-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: var(--color-primary);
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.3s ease;
+        }
+
+        .related-btn:hover {
+            background: var(--color-primary-dark);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .article-title {
+                font-size: 1.8rem;
+            }
+
+            .hero-image-container {
+                height: 300px;
+            }
+
+            .article-content {
+                padding: 30px 20px;
+            }
+
+            .related-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .author-profile {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .share-buttons {
+                justify-content: center;
+            }
+
+            .article-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .article-content h3 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">StoolMart</a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="blog.html" class="active"
+                            style="color: var(--color-primary-dark); font-weight: 700;">Blog</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-icons">
+                <div class="mobile-toggle" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Article Hero -->
+        <section class="article-hero">
+            <div class="article-container">
+                <h1 class="article-title">Catatan Pendakian Gunung Merbabu via Suwanting: Menghadapi Badai dan
+                    Menjelajahi Punggung Naga</h1>
+
+                <div class="article-meta">
+                    <div class="article-meta-item">
+                        <i class="far fa-calendar"></i>
+                        <span>3 Agustus 2024</span>
+                    </div>
+                    <div class="article-meta-item">
+                        <i class="far fa-user"></i>
+                        <span>Rizki Pratama</span>
+                    </div>
+                    <div class="article-meta-item">
+                        <i class="far fa-clock"></i>
+                        <span>8 menit baca</span>
+                    </div>
+                </div>
+
+                <div class="hero-image-container">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1470&auto=format&fit=crop"
+                        alt="Pemandangan Gunung Merbabu dengan sabana hijau dan awan dramatis">
+                </div>
+                <p class="image-caption">Pemandangan megah Gunung Merbabu dengan sabana hijau yang memukau dan formasi
+                    awan dramatis di puncaknya</p>
+            </div>
+        </section>
+
+        <!-- Article Content -->
+        <section style="padding: 20px 0 80px;">
+            <div class="article-container">
+                <div class="article-content">
+                    <!-- Table of Contents -->
+                    <div class="toc-wrapper">
+                        <div class="toc-header" onclick="toggleTOC()">
+                            <h3><i class="fas fa-list"></i> Daftar Isi</h3>
+                            <i class="fas fa-chevron-down toc-toggle" id="tocToggle"></i>
+                        </div>
+                        <ul class="toc-list" id="tocList">
+                            <li><a href="#persiapan">Persiapan dan Perjalanan Menuju Basecamp</a></li>
+                            <li><a href="#jalur-suwanting">Mengenal Jalur Via Suwanting</a></li>
+                            <li><a href="#pendakian-dimulai">Pendakian Dimulai: Pos 1 hingga Pos 2</a></li>
+                            <li class="toc-h3"><a href="#tantangan-cuaca">Tantangan Cuaca Ekstrem</a></li>
+                            <li><a href="#bermalam-pos2">Bermalam di Pos 2: Keputusan Bijak</a></li>
+                            <li><a href="#menuju-puncak">Perjalanan Menuju Puncak</a></li>
+                            <li class="toc-h3"><a href="#pos-mata-air">Pos Mata Air dan Pos 3</a></li>
+                            <li class="toc-h3"><a href="#tiga-puncak">Menaklukkan Tiga Puncak Merbabu</a></li>
+                            <li><a href="#perjalanan-turun">Perjalanan Turun yang Lancar</a></li>
+                            <li><a href="#kesimpulan">Kesimpulan dan Pelajaran Berharga</a></li>
+                            <li><a href="#faq">FAQ - Pertanyaan Umum</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Baca Juga Section -->
+                    <div class="baca-juga">
+                        <h3><i class="fas fa-bookmark"></i> Baca Juga</h3>
+                        <div class="baca-juga-list">
+                            <a href="#" class="baca-juga-item">
+                                <i class="fas fa-mountain baca-juga-icon"></i>
+                                <span class="baca-juga-text">Panduan Lengkap Pendakian Gunung untuk Pemula</span>
+                            </a>
+                            <a href="artikel2.html" class="baca-juga-item">
+                                <i class="fas fa-backpack baca-juga-icon"></i>
+                                <span class="baca-juga-text">Tektok Gunung Kawi: Ekspektasi Healing, Realita
+                                    Overthinking</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Introduction -->
+                    <p>Gunung Merbabu, salah satu gunung berapi yang terletak di Jawa Tengah, menawarkan pengalaman
+                        pendakian yang tak terlupakan dengan ketinggian mencapai 3.145 mdpl (meter di atas permukaan
+                        laut). Pada tanggal 3 Agustus 2024, saya bersama enam teman melakukan pendakian melalui jalur
+                        Suwanting yang terkenal dengan pemandangan sabana luas dan formasi bukit yang disebut "Punggung
+                        Naga".</p>
+
+                    <p>Perjalanan ini dimulai dari Stasiun Jember, Jawa Timur, dengan menempuh perjalanan kereta selama
+                        kurang lebih 8 jam menuju Yogyakarta. Pengalaman ini mengajarkan kami banyak hal tentang
+                        persiapan, kerja sama tim, dan pentingnya membuat keputusan bijak di tengah kondisi alam yang
+                        tidak bersahabat.</p>
+
+                    <!-- Section 1 -->
+                    <h2 id="persiapan">Persiapan dan Perjalanan Menuju Basecamp</h2>
+
+                    <p>Perjalanan kami dimulai dengan keberangkatan dari Stasiun Jember menggunakan kereta api.
+                        Perjalanan darat selama 8 jam ini menjadi waktu yang tepat untuk mempersiapkan mental dan fisik,
+                        serta membahas strategi pendakian bersama tim. Kami tiba di Yogyakarta pada sore hari dan
+                        langsung melanjutkan perjalanan menuju basecamp Gunung Merbabu.</p>
+
+                    <p>Sesampainya di basecamp kaki gunung pada pukul 3 dini hari, kami menyadari bahwa simaksi (sistem
+                        informasi pendakian) baru dibuka pada pukul 7 pagi. Keputusan untuk beristirahat di tempat yang
+                        disediakan basecamp menjadi pilihan yang tepat untuk mengumpulkan energi sebelum pendakian
+                        dimulai.</p>
+
+                    <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=1470&auto=format&fit=crop"
+                        alt="Basecamp pendakian gunung dengan tenda dan pendaki" class="content-image">
+                    <p class="image-caption">Suasana basecamp di pagi hari sebelum pendakian dimulai</p>
+
+                    <blockquote>
+                        <p>"Persiapan yang matang adalah setengah dari kesuksesan pendakian. Jangan pernah meremehkan
+                            pentingnya istirahat yang cukup sebelum memulai perjalanan menuju puncak."</p>
+                    </blockquote>
+
+                    <!-- Section 2 -->
+                    <h2 id="jalur-suwanting">Mengenal Jalur Via Suwanting</h2>
+
+                    <p>Jalur Suwanting merupakan salah satu jalur pendakian Gunung Merbabu yang terkenal dengan
+                        keindahan sabana luas dan deretan bukit yang membentuk formasi seperti punggung naga. Jalur ini
+                        memiliki karakteristik yang unik dan menantang, sehingga tidak disarankan untuk pendaki pemula
+                        tanpa pendamping yang berpengalaman.</p>
+
+                    <h3>Karakteristik Jalur Suwanting</h3>
+
+                    <p>Jalur ini memiliki 3 pos utama dan 1 pos air yang menjadi checkpoint penting selama pendakian.
+                        Medan yang dilalui cukup beragam, mulai dari trek sabana yang landai hingga tanjakan curam
+                        dengan kondisi tanah yang bisa sangat licin saat hujan. Keindahan panorama yang ditawarkan
+                        sebanding dengan tantangan yang harus dihadapi.</p>
+
+                    <img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1476&auto=format&fit=crop"
+                        alt="Jalur pendakian dengan sabana luas" class="content-image">
+                    <p class="image-caption">Jalur sabana yang luas dan indah di Gunung Merbabu, terkenal dengan sebutan
+                        Punggung Naga</p>
+
+                    <!-- Promo Banner 1 -->
+                    <div class="promo-banner">
+                        <h3>🏔️ Siap Mendaki? Lengkapi Perlengkapanmu!</h3>
+                        <p>Dapatkan diskon hingga 30% untuk semua perlengkapan outdoor dan hiking gear</p>
+                        <a href="#" class="btn btn-primary"
+                            style="background: white; color: var(--color-primary-dark);">Belanja Sekarang</a>
+                    </div>
+
+                    <!-- Section 3 -->
+                    <h2 id="pendakian-dimulai">Pendakian Dimulai: Pos 1 hingga Pos 2</h2>
+
+                    <p>Setelah menyelesaikan administrasi simaksi dan penukaran tiket yang telah dibeli melalui situs
+                        resmi Gunung Merbabu, kami memulai pendakian sekitar pukul 8 pagi. Awal perjalanan terasa sangat
+                        menyenangkan dengan cuaca yang cerah dan pemandangan sabana yang memukau di sepanjang trek.</p>
+
+                    <h3 id="tantangan-cuaca">Tantangan Cuaca Ekstrem</h3>
+
+                    <p>Namun, alam memiliki rencananya sendiri. Di tengah perjalanan antara Pos 1 dan Pos 2, hujan deras
+                        mulai turun dan membasahi seluruh trek pendakian. Kondisi ini membuat jalur menjadi sangat licin
+                        dan berbahaya. Yang lebih memprihatinkan, salah satu anggota tim kami mengalami cedera pada kaki
+                        akibat terjatuh berkali-kali di trek yang licin.</p>
+
+                    <p>Keputusan untuk menurunkan tempo pendakian menjadi sangat penting dalam situasi ini. Keselamatan
+                        tim adalah prioritas utama, dan kami harus menyesuaikan kecepatan dengan kondisi anggota yang
+                        mengalami cedera. Ini menjadi pelajaran berharga tentang pentingnya fleksibilitas dan kepedulian
+                        terhadap sesama pendaki.</p>
+
+                    <img src="https://images.unsplash.com/photo-1476900966873-ab0059ad8f7d?q=80&w=1470&auto=format&fit=crop"
+                        alt="Pendaki dalam kondisi hujan dan kabut" class="content-image">
+                    <p class="image-caption">Kondisi cuaca ekstrem dengan hujan dan kabut tebal yang menyelimuti jalur
+                        pendakian</p>
+
+                    <!-- Section 4 -->
+                    <h2 id="bermalam-pos2">Bermalam di Pos 2: Keputusan Bijak</h2>
+
+                    <p>Sesampainya di Pos 2, tim mengadakan evaluasi menyeluruh terhadap kondisi cuaca, fisik anggota,
+                        dan kemungkinan untuk melanjutkan perjalanan. Badai yang semakin kencang disertai kabut tebal
+                        membuat visibilitas sangat terbatas. Setelah diskusi panjang, kami memutuskan untuk mendirikan
+                        tenda dan bermalam di Pos 2.</p>
+
+                    <p>Keputusan ini bukan merupakan tanda kekalahan, melainkan bentuk kebijaksanaan dalam menghadapi
+                        kondisi alam yang tidak mendukung. Mendaki dalam kondisi badai dan kabut tebal sangat berbahaya
+                        dan bisa berakibat fatal. Kami bermalam di Pos 2 hingga sekitar pukul 3 dini hari, menunggu
+                        kondisi cuaca membaik.</p>
+
+                    <blockquote>
+                        <p>"Keberanian bukan berarti nekat menghadapi bahaya, tetapi bijak dalam mengambil keputusan
+                            demi keselamatan bersama. Mundur untuk sementara adalah strategi untuk maju lebih jauh."</p>
+                    </blockquote>
+
+                    <!-- Section 5 -->
+                    <h2 id="menuju-puncak">Perjalanan Menuju Puncak</h2>
+
+                    <p>Ketika badai mulai mereda sekitar pukul 3 dini hari, kami melanjutkan perjalanan menuju puncak.
+                        Meskipun cuaca sudah lebih baik, trek yang basah dan licin masih menjadi tantangan tersendiri.
+                        Perjalanan dari Pos 2 ke Pos Mata Air memakan waktu lebih lama dari perkiraan karena kondisi
+                        medan yang sulit.</p>
+
+                    <h3 id="pos-mata-air">Pos Mata Air dan Pos 3</h3>
+
+                    <p>Kami tiba di Pos Mata Air sekitar pukul 7 pagi, jauh lebih lambat dari jadwal normal karena
+                        berbagai kendala yang dialami. Di pos ini, kami mengisi ulang persediaan air dan beristirahat
+                        sejenak sebelum melanjutkan ke Pos 3. Perjalanan dilanjutkan dengan tempo yang sangat lambat,
+                        mempertimbangkan kondisi salah satu anggota tim yang masih mengalami masalah pada kakinya.</p>
+
+                    <p>Sesampainya di Pos 3 pada pukul 8 pagi, kami kembali mengadakan evaluasi. Medan menuju puncak
+                        dari Pos 3 dikenal cukup berbahaya, terutama dengan kondisi fisik tim yang tidak optimal.
+                        Setelah diskusi, salah satu anggota tim memutuskan untuk tidak melanjutkan perjalanan demi
+                        keselamatan. Keputusan yang sangat bijak dan kami hormati.</p>
+
+                    <h3 id="tiga-puncak">Menaklukkan Tiga Puncak Merbabu</h3>
+
+                    <p>Dengan enam anggota yang tersisa, kami melanjutkan perjalanan dan akhirnya mencapai puncak
+                        pertama, Puncak Suwanting, pada pukul 10 pagi. Puncak Suwanting memiliki ketinggian 3.105 mdpl
+                        dan menawarkan pemandangan yang luar biasa indah. Meskipun terlambat dari jadwal ideal untuk
+                        melihat sunrise, kepuasan mencapai puncak tetap terasa luar biasa.</p>
+
+                    <p>Tidak puas dengan satu puncak, kami melanjutkan perjalanan ke Puncak Triangulasi yang memiliki
+                        ketinggian 3.142 mdpl. Puncak ini dinamakan demikian karena terdapat tiang triangulasi yang
+                        digunakan untuk pemetaan. Pemandangan dari puncak ini memberikan perspektif berbeda dari
+                        keindahan Gunung Merbabu.</p>
+
+                    <p>Puncak terakhir yang kami tuju adalah Puncak Kenteng Songo, puncak tertinggi Gunung Merbabu
+                        dengan ketinggian 3.142 mdpl. Nama "Kenteng Songo" berasal dari bahasa Jawa yang berarti
+                        "sembilan kawah". Mencapai puncak tertinggi ini memberikan rasa pencapaian yang luar biasa
+                        setelah semua tantangan yang kami hadapi.</p>
+
+                    <img src="https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=1470&auto=format&fit=crop"
+                        alt="Pendaki di puncak gunung dengan pemandangan awan" class="content-image">
+                    <p class="image-caption">Momen kebahagiaan mencapai puncak Gunung Merbabu setelah melewati berbagai
+                        tantangan</p>
+
+                    <!-- Section 6 -->
+                    <h2 id="perjalanan-turun">Perjalanan Turun yang Lancar</h2>
+
+                    <p>Setelah menikmati pemandangan dan mengabadikan momen di ketiga puncak, kami memutuskan untuk
+                        tidak berlama-lama dan segera turun. Perjalanan turun dilakukan dengan hati-hati, mengingat
+                        kondisi trek yang masih licin. Kami kembali ke Pos 3 untuk menjemput rekan yang memutuskan untuk
+                        menunggu di sana.</p>
+
+                    <p>Perjalanan turun dari Pos 3 ke basecamp berjalan relatif lancar tanpa kendala serius. Meskipun
+                        fisik sudah sangat lelah, semangat tim tetap terjaga karena rasa bangga telah berhasil
+                        menyelesaikan pendakian tanpa mengalami insiden serius. Yang terpenting, semua anggota tim
+                        kembali dengan selamat.</p>
+
+                    <!-- Promo Banner 2 -->
+                    <div class="promo-banner">
+                        <h3>📸 Abadikan Momen Pendakianmu!</h3>
+                        <p>Kamera action dan perlengkapan fotografi outdoor dengan harga spesial</p>
+                        <a href="#" class="btn btn-primary"
+                            style="background: white; color: var(--color-primary-dark);">Lihat Koleksi</a>
+                    </div>
+
+                    <!-- Section 7 - Kesimpulan -->
+                    <h2 id="kesimpulan">Kesimpulan dan Pelajaran Berharga</h2>
+
+                    <p>Pendakian Gunung Merbabu via jalur Suwanting ini memberikan banyak pelajaran berharga. Pertama,
+                        persiapan yang matang sangat penting, termasuk mempelajari karakteristik jalur dan mempersiapkan
+                        perlengkapan yang sesuai. Kedua, kerja sama tim dan kepedulian terhadap sesama pendaki adalah
+                        kunci keberhasilan dan keselamatan.</p>
+
+                    <p>Ketiga, kemampuan membuat keputusan bijak di tengah kondisi yang tidak ideal sangat krusial.
+                        Keputusan untuk bermalam di Pos 2 dan membiarkan satu anggota tim tidak melanjutkan ke puncak
+                        adalah contoh keputusan yang mengutamakan keselamatan di atas ego.</p>
+
+                    <p>Keempat, alam harus selalu dihormati. Cuaca buruk, medan sulit, dan kondisi tak terduga adalah
+                        bagian dari pendakian yang harus diterima dengan lapang dada. Yang terpenting adalah semua
+                        anggota tim kembali dengan selamat, membawa kenangan dan pengalaman yang tak ternilai.</p>
+
+                    <p>Bagi yang berencana mendaki Gunung Merbabu via Suwanting, pastikan Anda memiliki pengalaman
+                        mendaki yang cukup atau didampingi oleh guide profesional. Persiapkan fisik dan mental dengan
+                        baik, dan selalu utamakan keselamatan di atas segalanya. Rasa bangga mencapai puncak memang luar
+                        biasa, tetapi pulang dengan selamat adalah pencapaian terbesar.</p>
+
+                    <!-- FAQ Section -->
+                    <h2 id="faq">FAQ - Pertanyaan yang Sering Diajukan</h2>
+                    <div class="faq-section">
+                        <div class="faq-item">
+                            <div class="faq-question">Q: Apakah jalur Suwanting cocok untuk pendaki pemula?</div>
+                            <div class="faq-answer">A: Jalur Suwanting memiliki medan yang cukup menantang dan tidak
+                                disarankan untuk pendaki pemula tanpa pendamping yang berpengalaman. Medan yang licin
+                                saat hujan dan beberapa bagian yang cukup curam memerlukan stamina dan teknik pendakian
+                                yang baik.</div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">Q: Berapa lama waktu yang dibutuhkan untuk mendaki via jalur
+                                Suwanting?</div>
+                            <div class="faq-answer">A: Dalam kondisi normal, pendakian dari basecamp ke puncak
+                                membutuhkan waktu sekitar 6-8 jam. Namun, waktu ini bisa bertambah tergantung kondisi
+                                cuaca, fisik pendaki, dan kecepatan tim. Sebaiknya alokasikan waktu 2 hari 1 malam untuk
+                                pendakian yang lebih nyaman.</div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">Q: Apa saja perlengkapan wajib untuk mendaki Gunung Merbabu?</div>
+                            <div class="faq-answer">A: Perlengkapan wajib meliputi: carrier/tas gunung, sleeping bag,
+                                tenda, matras, jaket tebal, sarung tangan, headlamp, sepatu tracking yang baik, pakaian
+                                ganti, obat-obatan pribadi, makanan dan minuman yang cukup, serta perlengkapan P3K.
+                                Jangan lupa membawa jas hujan karena cuaca di gunung sangat tidak menentu.</div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">Q: Kapan waktu terbaik untuk mendaki Gunung Merbabu?</div>
+                            <div class="faq-answer">A: Waktu terbaik adalah saat musim kemarau, sekitar bulan April
+                                hingga Oktober. Pada periode ini, cuaca cenderung lebih cerah dan trek tidak terlalu
+                                licin. Hindari mendaki saat musim hujan (November-Maret) karena risiko badai dan tanah
+                                longsor meningkat.</div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">Q: Bagaimana cara mendapatkan tiket pendakian Gunung Merbabu?
+                            </div>
+                            <div class="faq-answer">A: Tiket pendakian dapat dibeli melalui situs resmi sistem informasi
+                                pendakian (simaksi) Gunung Merbabu. Disarankan untuk membeli tiket beberapa hari sebelum
+                                pendakian karena kuota pendaki dibatasi untuk menjaga kelestarian alam.</div>
+                        </div>
+                    </div>
+
+                    <!-- Share Section -->
+                    <div class="share-section">
+                        <h3>Bagikan Artikel Ini</h3>
+                        <div class="share-buttons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com/artikel1.html"
+                                target="_blank" class="share-btn facebook">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://twitter.com/intent/tweet?url=https://yourwebsite.com/artikel1.html&text=Catatan Pendakian Gunung Merbabu via Suwanting"
+                                target="_blank" class="share-btn twitter">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="https://wa.me/?text=Baca artikel menarik tentang pendakian Gunung Merbabu: https://yourwebsite.com/artikel1.html"
+                                target="_blank" class="share-btn whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://yourwebsite.com/artikel1.html"
+                                target="_blank" class="share-btn linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Author Profile -->
+                    <div class="author-profile">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+                            alt="Rizki Pratama" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Rizki Pratama</h4>
+                            <p class="author-bio">Pecinta alam dan pendaki gunung dengan pengalaman lebih dari 5 tahun.
+                                Telah menaklukkan berbagai puncak di Indonesia dan senang berbagi pengalaman melalui
+                                tulisan. Percaya bahwa setiap pendakian adalah pembelajaran hidup yang berharga.</p>
+                            <div class="author-social">
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="mailto:rizki@example.com"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Related Articles -->
+                <div class="related-articles">
+                    <h2>Artikel Terkait</h2>
+                    <div class="related-grid">
+                        <!-- Related Article 1 -->
+                        <div class="related-card">
+                            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=600&auto=format&fit=crop"
+                                alt="Gunung Kawi" class="related-image">
+                            <div class="related-content">
+                                <h3>Tektok Gunung Kawi: Ekspektasi vs Realita</h3>
+                                <p>Kisah nekat tektok Gunung Kawi yang berujung panic attack gara-gara kabut tebal dan
+                                    jalur yang hilang. Pelajaran berharga tentang persiapan mental.</p>
+                                <a href="artikel2.html" class="related-btn">Baca Selengkapnya</a>
+                            </div>
+                        </div>
+
+                        <!-- Related Article 2 -->
+                        <div class="related-card">
+                            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600&auto=format&fit=crop"
+                                alt="Color Palette" class="related-image">
+                            <div class="related-content">
+                                <h3>Choosing the Perfect Palette</h3>
+                                <p>A guide to selecting warm, elegant colors that complement your minimalist furniture
+                                    and enhance your space.</p>
+                                <a href="artikel3.html" class="related-btn">Baca Selengkapnya</a>
+                            </div>
+                        </div>
+
+                        <!-- Related Article 3 -->
+                        <div class="related-card">
+                            <img src="https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=600&auto=format&fit=crop"
+                                alt="Tips Mendaki" class="related-image">
+                            <div class="related-content">
+                                <h3>Tips Menghadapi Cuaca Ekstrem Saat Mendaki</h3>
+                                <p>Strategi dan teknik untuk tetap aman saat menghadapi cuaca buruk di gunung. Wajib
+                                    dibaca sebelum mendaki!</p>
+                                <a href="#" class="related-btn">Baca Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA Section -->
+        <section class="cta-section"
+            style="background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%); padding: 80px 0; text-align: center; color: white;">
+            <div class="container">
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px; color: white;">Ready to Transform Your Space?</h2>
+                <p
+                    style="font-size: 1.1rem; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; opacity: 0.95;">
+                    Discover our collection of minimalist bar stools and elevate your interior design today.
+                </p>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <a href="products.html" class="btn"
+                        style="background-color: white; color: var(--color-primary-dark); padding: 15px 40px; font-weight: 600;">Shop
+                        Now</a>
+                    <a href="https://wa.me/628123456789" class="btn"
+                        style="background-color: transparent; color: white; border: 2px solid white; padding: 15px 40px; font-weight: 600;">Contact
+                        Us</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Floating Buttons -->
+    <a href="#" class="floating-btn back-to-top" id="backToTop" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <a href="https://wa.me/628123456789" class="floating-btn whatsapp-btn" target="_blank"
+        aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">StoolMart</a>
+                    <p>The contrast between those elements creates a highly unique modern look.</p>
+                    <div class="social-links" style="margin-top: 20px;">
+                        <a href="https://www.instagram.com" target="_blank" style="margin-right: 15px;"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com" target="_blank" style="margin-right: 15px;"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="_blank" style="margin-right: 15px;"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="partnership.html">Partnership</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="about-us.html">About</a></li>
+                        <li><a href="products.html">Features</a></li>
+                        <li><a href="support.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="https://ar-shakir.com" target="_blank">ar-shakir.com</a></li>
+                        <li><a href="tel:+15646445965">+1564-644-5965</a></li>
+                        <li><a href="https://maps.google.com/?q=Los+Angeles,+CA" target="_blank">Los Angeles, CA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 StoolMart All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        // Table of Contents Toggle
+        function toggleTOC() {
+            const tocList = document.getElementById('tocList');
+            const tocToggle = document.getElementById('tocToggle');
+
+            tocList.classList.toggle('collapsed');
+            tocToggle.classList.toggle('collapsed');
+        }
+
+        // Smooth scroll for TOC links
+        document.querySelectorAll('.toc-list a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Back to top button functionality
+        window.addEventListener('scroll', function () {
+            const backToTop = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        document.getElementById('backToTop').addEventListener('click', function (e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Tektok Gunung Kawi: Ekspektasi healing yang berujung panic attack gara-gara kabut tebal dan jalur yang hilang. Real story pendakian ekstrem!" />
+    <title>Tektok Gunung Kawi: Ekspektasi Healing, Realita Overthinking - StoolMart Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Article-specific styles */
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .article-hero {
+            padding-top: 90px;
+            padding-bottom: 40px;
+            background: linear-gradient(135deg, var(--color-bg) 0%, #e8f5e9 100%);
+        }
+
+        .article-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            color: var(--color-secondary);
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+        }
+
+        .article-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .hero-image-container {
+            width: 100%;
+            height: 500px;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .image-caption {
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-content {
+            background: var(--color-white);
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Table of Contents */
+        .toc-wrapper {
+            background: var(--color-bg);
+            border-left: 4px solid var(--color-primary);
+            padding: 25px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+        }
+
+        .toc-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .toc-header h3 {
+            font-size: 1.2rem;
+            margin: 0;
+            color: var(--color-secondary);
+        }
+
+        .toc-toggle {
+            font-size: 1.2rem;
+            color: var(--color-primary-dark);
+            transition: transform 0.3s ease;
+        }
+
+        .toc-toggle.collapsed {
+            transform: rotate(-90deg);
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            max-height: 500px;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .toc-list.collapsed {
+            max-height: 0;
+            margin-top: 0;
+        }
+
+        .toc-list li {
+            margin-bottom: 10px;
+        }
+
+        .toc-list a {
+            color: var(--color-text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            display: block;
+            padding: 5px 0;
+        }
+
+        .toc-list a:hover {
+            color: var(--color-primary-dark);
+            padding-left: 10px;
+        }
+
+        .toc-list .toc-h3 {
+            padding-left: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Article Typography */
+        .article-content h2 {
+            font-size: 1.8rem;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: var(--color-secondary);
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--color-border);
+        }
+
+        .article-content h3 {
+            font-size: 1.4rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: var(--color-primary-dark);
+        }
+
+        .article-content p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: var(--color-secondary);
+            font-size: 1.05rem;
+        }
+
+        .article-content blockquote {
+            background: linear-gradient(135deg, #f0f9f4 0%, #e8f5e9 100%);
+            border-left: 5px solid var(--color-primary);
+            padding: 25px 30px;
+            margin: 30px 0;
+            border-radius: 10px;
+            font-style: italic;
+            color: var(--color-secondary);
+        }
+
+        .article-content blockquote p {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+
+        /* Supporting Images */
+        .content-image {
+            width: 100%;
+            max-height: 450px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin: 30px 0 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Promo GIF */
+        .promo-banner {
+            width: 100%;
+            padding: 40px;
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+            border-radius: 15px;
+            text-align: center;
+            margin: 40px 0;
+            color: white;
+        }
+
+        .promo-banner h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--color-secondary);
+        }
+
+        .promo-banner p {
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+
+        /* Baca Juga Section */
+        .baca-juga {
+            background: var(--color-bg);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 40px 0;
+        }
+
+        .baca-juga h3 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: var(--color-secondary);
+        }
+
+        .baca-juga-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .baca-juga-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            background: var(--color-white);
+            border-radius: 10px;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .baca-juga-item:hover {
+            transform: translateX(10px);
+        }
+
+        .baca-juga-icon {
+            font-size: 1.5rem;
+            color: var(--color-primary-dark);
+        }
+
+        .baca-juga-text {
+            color: var(--color-secondary);
+            font-weight: 500;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            margin: 40px 0;
+        }
+
+        .faq-item {
+            background: var(--color-bg);
+            padding: 20px 25px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border-left: 4px solid var(--color-primary);
+        }
+
+        .faq-question {
+            font-weight: 700;
+            color: var(--color-secondary);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .faq-answer {
+            color: var(--color-text-muted);
+            line-height: 1.7;
+        }
+
+        /* Author Profile */
+        .author-profile {
+            background: linear-gradient(135deg, var(--color-bg) 0%, #f5f5f5 100%);
+            padding: 30px;
+            border-radius: 15px;
+            display: flex;
+            gap: 25px;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .author-avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--color-primary);
+        }
+
+        .author-info h4 {
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+            color: var(--color-secondary);
+        }
+
+        .author-bio {
+            color: var(--color-text-muted);
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .author-social {
+            display: flex;
+            gap: 15px;
+        }
+
+        .author-social a {
+            color: var(--color-primary-dark);
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .author-social a:hover {
+            color: var(--color-secondary);
+        }
+
+        /* Share Buttons */
+        .share-section {
+            background: var(--color-bg);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 40px 0;
+        }
+
+        .share-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: var(--color-secondary);
+        }
+
+        .share-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 24px;
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: transform 0.3s ease;
+        }
+
+        .share-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        .share-btn.facebook {
+            background: #1877f2;
+        }
+
+        .share-btn.twitter {
+            background: #1da1f2;
+        }
+
+        .share-btn.whatsapp {
+            background: #25d366;
+        }
+
+        .share-btn.linkedin {
+            background: #0077b5;
+        }
+
+        /* Related Articles */
+        .related-articles {
+            margin: 60px 0;
+        }
+
+        .related-articles h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            text-align: center;
+            color: var(--color-secondary);
+        }
+
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .related-card {
+            background: var(--color-white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .related-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .related-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .related-content {
+            padding: 20px;
+        }
+
+        .related-content h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: var(--color-secondary);
+        }
+
+        .related-content p {
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .related-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: var(--color-primary);
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.3s ease;
+        }
+
+        .related-btn:hover {
+            background: var(--color-primary-dark);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .article-title {
+                font-size: 1.8rem;
+            }
+
+            .hero-image-container {
+                height: 300px;
+            }
+
+            .article-content {
+                padding: 30px 20px;
+            }
+
+            .related-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .author-profile {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .share-buttons {
+                justify-content: center;
+            }
+
+            .article-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .article-content h3 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">StoolMart</a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="blog.html" class="active"
+                            style="color: var(--color-primary-dark); font-weight: 700;">Blog</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-icons">
+                <div class="mobile-toggle" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Article Hero -->
+        <section class="article-hero">
+            <div class="article-container">
+                <h1 class="article-title">Tektok Gunung Kawi: Ekspektasi Healing, Realita Overthinking</h1>
+
+                <div class="article-meta">
+                    <div class="article-meta-item">
+                        <i class="far fa-calendar"></i>
+                        <span>20 Januari 2024</span>
+                    </div>
+                    <div class="article-meta-item">
+                        <i class="far fa-user"></i>
+                        <span>Dimas Aditya</span>
+                    </div>
+                    <div class="article-meta-item">
+                        <i class="far fa-clock"></i>
+                        <span>7 menit baca</span>
+                    </div>
+                </div>
+
+                <div class="hero-image-container">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1470&auto=format&fit=crop"
+                        alt="Gunung Kawi dengan kabut mistis dan hutan pinus">
+                </div>
+                <p class="image-caption">Gunung Kawi yang diselimuti kabut mistis dengan hutan pinus yang aesthetic</p>
+            </div>
+        </section>
+
+        <!-- Article Content -->
+        <section style="padding: 20px 0 80px;">
+            <div class="article-container">
+                <div class="article-content">
+                    <!-- Table of Contents -->
+                    <div class="toc-wrapper">
+                        <div class="toc-header" onclick="toggleTOC()">
+                            <h3><i class="fas fa-list"></i> Daftar Isi</h3>
+                            <i class="fas fa-chevron-down toc-toggle" id="tocToggle"></i>
+                        </div>
+                        <ul class="toc-list" id="tocList">
+                            <li><a href="#intro">Kenapa Gunung Kawi?</a></li>
+                            <li><a href="#perjalanan">Perjalanan Menuju Basecamp</a></li>
+                            <li><a href="#trek-awal">Trek Awal: Hidden Gem yang Aesthetic</a></li>
+                            <li class="toc-h3"><a href="#hutan-pinus">Hutan Pinus yang Feed Material</a></li>
+                            <li><a href="#drama-dimulai">Drama Dimulai: Hujan dan Kabut Tebal</a></li>
+                            <li class="toc-h3"><a href="#lost-track">Lost Track dan Panic Attack</a></li>
+                            <li><a href="#pos2">Istirahat di Pos 2: Ngumpulin Nyawa</a></li>
+                            <li><a href="#puncak">Akhirnya Sampai Puncak!</a></li>
+                            <li><a href="#turun">Perjalanan Turun yang Aman</a></li>
+                            <li><a href="#kesimpulan">Kesimpulan: Worth It Gak Sih?</a></li>
+                            <li><a href="#faq">FAQ - Pertanyaan Umum</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Baca Juga Section -->
+                    <div class="baca-juga">
+                        <h3><i class="fas fa-bookmark"></i> Baca Juga</h3>
+                        <div class="baca-juga-list">
+                            <a href="artikel1.html" class="baca-juga-item">
+                                <i class="fas fa-mountain baca-juga-icon"></i>
+                                <span class="baca-juga-text">Catatan Pendakian Gunung Merbabu via Suwanting</span>
+                            </a>
+                            <a href="#" class="baca-juga-item">
+                                <i class="fas fa-hiking baca-juga-icon"></i>
+                                <span class="baca-juga-text">Tips Tektok untuk Pemula: Yang Harus Kamu Tau</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Introduction -->
+                    <h2 id="intro">Kenapa Gunung Kawi?</h2>
+
+                    <p>So, tanggal 20 Januari 2024 kemarin gue sama circle gue (total 7 orang) nekat gaspol ke Gunung
+                        Kawi. Jujurly, gunung di Jawa Timur ini emang tingginya cuma sekitar 2.551 mdpl, tapi vibes-nya
+                        mistis-mistis aesthetic gitu. Banyak yang bilang Gunung Kawi ini punya aura spiritual yang kuat,
+                        ditambah pemandangan hutan pinus yang Instagram-able banget.</p>
+
+                    <p>Awalnya ekspektasi kita simple aja: healing, foto-foto aesthetic, terus pulang dengan hati
+                        tenang. Tapi ternyata alam punya rencana lain buat kita. Spoiler alert: ini jadi salah satu
+                        pendakian paling intense yang pernah gue lakuin, dengan drama yang bikin overthinking level
+                        maksimal!</p>
+
+                    <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=1470&auto=format&fit=crop"
+                        alt="Persiapan pendakian dengan backpack" class="content-image">
+                    <p class="image-caption">Persiapan sebelum berangkat - masih semangat dan penuh harapan!</p>
+
+                    <!-- Section 1 -->
+                    <h2 id="perjalanan">Perjalanan Menuju Basecamp</h2>
+
+                    <p>Kita start dari Jember naik kereta ke Malang, perjalanan sekitar 4 jam-an lah. Honestly, war
+                        tiket kereta itu sendiri udah jadi petualangan tersendiri. Tapi alhamdulillah semua dapet seat
+                        dan perjalanan lancar. Di kereta, kita udah mulai excited banget ngebayangin gimana serunya
+                        nanti di puncak.</p>
+
+                    <p>Nyampe basecamp jam 3 pagi, tapi sadly simaksi baru buka jam 7. Yaudah, kita chill dulu lurusin
+                        kaki di basecamp sambil ngumpulin nyawa. Cuaca pagi itu dingin banget, tapi vibes-nya cozy
+                        karena kita ngobrol-ngobrol sambil nunggu matahari terbit. Ada yang tidur sebentar, ada yang
+                        tetep melek sambil ngopi.</p>
+
+                    <blockquote>
+                        <p>"Kadang perjalanan yang paling berkesan itu bukan yang sempurna, tapi yang penuh drama dan
+                            bikin kita belajar banyak hal."</p>
+                    </blockquote>
+
+                    <p>Abis matahari terbit dan urus simaksi, kita langsung start trekking sekitar jam 8 pagi. Semangat
+                        masih 100%, energi penuh, dan mental masih stabil. Little did we know, alam lagi nyiapin plot
+                        twist yang gak ada di itinerary kita.</p>
+
+                    <!-- Section 2 -->
+                    <h2 id="trek-awal">Trek Awal: Hidden Gem yang Aesthetic</h2>
+
+                    <p>Katanya sih jalurnya tuh hidden gem, hutan rapet tapi feed material banget buat Instagram.
+                        Banyak pohon pinus yang goks abis, cahaya matahari yang masuk lewat celah-celah pohon bikin
+                        suasana kayak di film-film fantasy. Gue gak bohong, awal-awal trek ini emang surga banget buat
+                        yang suka fotografi.</p>
+
+                    <h3 id="hutan-pinus">Hutan Pinus yang Feed Material</h3>
+
+                    <p>Hutan pinus di Gunung Kawi ini beda dari yang lain. Pohonnya tinggi-tinggi, rapet, dan
+                        susunannya natural banget. Pas pagi gitu, kabut tipis masih nempel di antara pohon-pohon,
+                        bikin vibes mystical yang aesthetic parah. Kita sempet stop berkali-kali buat foto, sampe
+                        hampir lupa ini pendakian bukan photo session.</p>
+
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1471&auto=format&fit=crop"
+                        alt="Hutan pinus yang rimbun" class="content-image">
+                    <p class="image-caption">Hutan pinus yang aesthetic banget - Instagram material!</p>
+
+                    <p>Tapi real talk, treknya ngga ramah sama sekali buat newbie, apalagi kalau tanpa guide. Medannya
+                        naik-turun, ada beberapa bagian yang cukup curam, dan marking jalurnya kadang gak terlalu jelas.
+                        Kita yang udah pernah naik gunung beberapa kali aja sempet bingung di beberapa titik, apalagi
+                        kalau first timer.</p>
+
+                    <!-- Promo Banner 1 -->
+                    <div class="promo-banner">
+                        <h3>🎒 Siap Tektok? Jangan Lupa Perlengkapannya!</h3>
+                        <p>Dapatkan diskon spesial untuk daypack, jaket outdoor, dan perlengkapan tektok lainnya</p>
+                        <a href="#" class="btn btn-primary"
+                            style="background: white; color: var(--color-primary-dark);">Shop Now</a>
+                    </div>
+
+                    <!-- Section 3 -->
+                    <h2 id="drama-dimulai">Drama Dimulai: Hujan dan Kabut Tebal</h2>
+
+                    <p>Awalnya sih kita happy kiyowo, jalan santai sambil ngobrol dan ketawa-ketawa. Eh tiba-tiba alam
+                        nge-prank. Antara pos 1 ke 2, hujan turun deres banget, literally tanpa warning. Dalam hitungan
+                        menit, trek yang tadinya kering langsung jadi licin parah kayak perosotan. Kita langsung
+                        scramble buat pake jas hujan, tapi ya udah basah duluan.</p>
+
+                    <p>Trek yang udah licin itu bikin kita harus extra hati-hati. Beberapa kali ada yang hampir
+                        terpeleset, dan kita harus saling bantu pegangan. Tempo pendakian otomatis melambat drastis,
+                        dari yang tadinya santai jadi super slow motion. Tapi itu belum apa-apa dibanding drama
+                        selanjutnya.</p>
+
+                    <h3 id="lost-track">Lost Track dan Panic Attack</h3>
+
+                    <p>Yang bikin panic attack tuh pas kabut turun tebel banget sampe visibility nol! Sumpah, di situ
+                        kita sempet lost track, bener-bener blind map dan muter-muter di area yang sama. Bayangin aja,
+                        kita tujuh orang, basah kuyup, dingin, terus gak tau arah. Chaos banget, takut, panik, campur
+                        aduk.</p>
+
+                    <img src="https://images.unsplash.com/photo-1476900966873-ab0059ad8f7d?q=80&w=1470&auto=format&fit=crop"
+                        alt="Kabut tebal di gunung" class="content-image">
+                    <p class="image-caption">Kabut tebal yang bikin visibility nol - literally gak keliatan apa-apa</p>
+
+                    <p>Gue personally sempet overthinking parah di situ. Pikiran kemana-mana: "Gimana kalau kita makin
+                        nyasar?", "Gimana kalau gelap sebelum kita nemu jalur?", "Gimana kalau ada yang kenapa-kenapa?".
+                        Mental breakdown almost happened, tapi untungnya ada temen yang tetep stay calm dan jadi voice
+                        of reason buat kita semua.</p>
+
+                    <blockquote>
+                        <p>"Di saat-saat paling sulit, yang kita butuhin bukan kepanikan, tapi kepala dingin dan kerja
+                            sama tim yang solid."</p>
+                    </blockquote>
+
+                    <p>Akhirnya kita slow down, bener-bener pelan banget cari tanda jalur biar gak makin nyasar. Kita
+                        jalan literally step by step, ngecek setiap marking yang ada, dan saling komunikasi terus. Butuh
+                        waktu hampir satu jam lebih buat akhirnya nemu jalur yang bener lagi. Satu jam yang terasa kayak
+                        seabad!</p>
+
+                    <!-- Section 4 -->
+                    <h2 id="pos2">Istirahat di Pos 2: Ngumpulin Nyawa</h2>
+
+                    <p>Nyampe Pos 2, karena konsep kita emang tektok (no camp, no drama bawa tenda), kita cuma break
+                        bentar buat neduh. Valid sih, istirahat itu perlu biar gak burnout di jalan, apalagi abis drama
+                        nyasar tadi. Mental kita udah kayak roller coaster, naik-turun drastis.</p>
+
+                    <p>Di Pos 2 ini kita evaluasi kondisi semua orang. Alhamdulillah gak ada yang cedera serius, cuma
+                        capek dan basah aja. Kita makan snack, minum yang banyak, dan yang paling penting: ngumpulin
+                        mental yang sempet buyar tadi. Ada yang sempet nangis karena stress, ada yang diem aja sambil
+                        mikir, ada juga yang tetep ceria buat ngangkat mood semua orang.</p>
+
+                    <img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=1470&auto=format&fit=crop"
+                        alt="Istirahat di pos pendakian" class="content-image">
+                    <p class="image-caption">Moment istirahat di Pos 2 - ngumpulin nyawa sebelum lanjut</p>
+
+                    <p>Nungguin ujan reda dikit sama kabut nipis, baru deh kita gas lagi dengan sisa-sisa tenaga dan
+                        mental yang sempet down. Keputusan buat lanjut atau balik sempet jadi perdebatan seru. Tapi
+                        akhirnya kita sepakat: udah jauh-jauh sampe sini, masa iya gak lanjut? Plus, cuaca udah mulai
+                        membaik, jadi kita optimis bisa sampai puncak.</p>
+
+                    <!-- Promo Banner 2 -->
+                    <div class="promo-banner">
+                        <h3>☕ Recovery Gear untuk Pendaki</h3>
+                        <p>Sleeping bag, matras, dan perlengkapan istirahat dengan kualitas terbaik</p>
+                        <a href="#" class="btn btn-primary"
+                            style="background: white; color: var(--color-primary-dark);">Lihat Produk</a>
+                    </div>
+
+                    <!-- Section 5 -->
+                    <h2 id="puncak">Akhirnya Sampai Puncak!</h2>
+
+                    <p>Singkat cerita (tapi gak singkat prosesnya), kita touch down puncak jam 10 pagi. Ngaret dikit
+                        dari itinerary gara-gara drama nyasar. Tapi pas nyampe atas... gila sih, capek langsung
+                        kebayar. Puncaknya 2.551 mdpl itu worth it parah. Pemandangannya stunning, udara seger banget,
+                        dan yang paling penting: kita berhasil survive!</p>
+
+                    <p>View dari puncak Gunung Kawi ini beda dari gunung-gunung lain yang pernah gue daki. Ada nuansa
+                        spiritual yang kerasa banget, mungkin karena gunung ini emang punya sejarah dan cerita mistis
+                        yang kental. Tapi beyond that, pemandangan alamnya memang luar biasa indah. Kita bisa liat
+                        hamparan hutan dari atas, awan yang bergerak di bawah kita, dan kalau cuaca cerah bisa liat
+                        gunung-gunung lain di kejauhan.</p>
+
+                    <img src="https://images.unsplash.com/photo-1519904981063-b0cf448d479e?q=80&w=1470&auto=format&fit=crop"
+                        alt="Puncak gunung dengan pemandangan indah" class="content-image">
+                    <p class="image-caption">Finally di puncak! Semua drama terbayar dengan view yang stunning</p>
+
+                    <p>Karena kita tektok dan gamau pulang kemaleman, kita gak lama-lama di puncak. Cukup foto buat
+                        stock konten (priorities, kan?), makan sedikit, dan nikmatin moment sebentar. Total kita di
+                        puncak mungkin cuma 30 menit-an, tapi itu cukup buat recharge mental dan bikin semua perjuangan
+                        tadi terasa worth it.</p>
+
+                    <!-- Section 6 -->
+                    <h2 id="turun">Perjalanan Turun yang Aman</h2>
+
+                    <p>Pas turun sih aman, cuaca udah jauh lebih baik dari pas naik tadi. Kabut udah tipis, hujan udah
+                        berhenti, dan visibility udah normal lagi. Cuma kaki rasanya udah jompo banget. Lutut udah
+                        protes keras, paha rasanya mau copot, tapi semangat tetep terjaga karena kita udah di fase
+                        pulang.</p>
+
+                    <p>Trek turun lebih cepet dari naik, tapi tetep harus hati-hati karena tanah masih licin dari hujan
+                        tadi. Beberapa kali ada yang terpeleset tapi untungnya gak ada yang cedera. Kita turun dengan
+                        tempo yang stabil, gak terburu-buru tapi juga gak terlalu santai. Target kita simple: sampe
+                        basecamp sebelum gelap.</p>
+
+                    <p>Alhamdulillah kita nyampe basecamp sekitar jam 3 sore. Masih terang, masih aman, dan yang paling
+                        penting: semua anggota tim kembali dengan selamat. Tapi proud banget sih bisa survive tektok
+                        Kawi dengan cuaca extreme dan drama lost tadi. Bener-bener core memory unlocked!</p>
+
+                    <!-- Section 7 - Kesimpulan -->
+                    <h2 id="kesimpulan">Kesimpulan: Worth It Gak Sih?</h2>
+
+                    <p>Jadi, worth it gak sih tektok Gunung Kawi? Jawabannya: WORTH IT BANGET! Meskipun ada drama
+                        nyasar, panic attack, dan overthinking, tapi pengalaman ini bener-bener unforgettable. Kita
+                        belajar banyak hal: pentingnya persiapan, pentingnya stay calm di situasi sulit, dan pentingnya
+                        kerja sama tim.</p>
+
+                    <p>Gunung Kawi ini cocok banget buat yang cari pengalaman pendakian yang beda. Bukan cuma soal
+                        fisik, tapi juga mental. Trek-nya challenging, vibes-nya mistis tapi aesthetic, dan
+                        pemandangannya stunning. Tapi please, jangan nekat tektok kalau belum punya pengalaman atau
+                        minimal bawa guide yang tau jalur.</p>
+
+                    <p>Buat yang mau coba tektok Gunung Kawi, here's my advice: persiapkan mental dan fisik dengan
+                        baik, bawa perlengkapan yang proper (terutama jas hujan dan headlamp), dan yang paling penting:
+                        jangan panik kalau ada masalah. Stay calm, komunikasi dengan tim, dan selalu prioritaskan
+                        keselamatan di atas ego.</p>
+
+                    <blockquote>
+                        <p>"Healing gak selalu harus smooth. Kadang justru dari drama dan tantangan itulah kita dapet
+                            pelajaran paling berharga dan kenangan paling berkesan."</p>
+                    </blockquote>
+
+                    <!-- FAQ Section -->
+                    <h2 id="faq">FAQ - Pertanyaan yang Sering Diajukan</h2>
+                    <div class="faq-section">
+                        <div class="faq-item">
+                            <div class="faq-question">Q: Aman gak sih tektok Gunung Kawi tanpa guide?</div>
+                            <div class="faq-answer">A: Honestly, gak recommended banget. Jalurnya cukup tricky dan
+                                marking-nya kadang gak jelas. Kalau belum pernah naik gunung atau belum familiar sama
+                                jalur, mending pake guide. Safety first!</div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">Q: Berapa lama waktu yang dibutuhkan untuk tektok Gunung Kawi?
+                            </div>
+                            <div class="faq-answer">A: Kalau kondisi normal dan gak ada drama, sekitar 6-7 jam PP (naik
+                                3-4 jam, turun 2-3 jam). Tapi better kasih buffer waktu lebih buat jaga-jaga, apalagi
+                                kalau cuaca lagi unpredictable.</div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">Q: Perlengkapan apa aja yang wajib dibawa untuk tektok?</div>
+                            <div class="faq-answer">A: Minimal: daypack yang nyaman, sepatu tracking yang proper, jas
+                                hujan (ini WAJIB!), headlamp, makanan dan minuman yang cukup, powerbank, obat-obatan
+                                pribadi, dan pakaian ganti. Jangan lupa bawa sampah kamu turun ya!</div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">Q: Kapan waktu terbaik untuk mendaki Gunung Kawi?</div>
+                            <div class="faq-answer">A: Musim kemarau (April-Oktober) lebih aman karena cuaca lebih
+                                stabil. Hindari musim hujan karena trek bisa sangat licin dan kabut sering tebal banget.
+                                Trust me, you don't want to experience what we experienced!</div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">Q: Bener gak sih Gunung Kawi itu mistis?</div>
+                            <div class="faq-answer">A: Well, gunung ini emang punya sejarah spiritual yang kental dan
+                                banyak cerita mistis. Tapi selama kita respect sama alam dan tempat yang kita datangi,
+                                harusnya aman-aman aja. Yang penting jaga attitude dan jangan sembarangan.</div>
+                        </div>
+                    </div>
+
+                    <!-- Share Section -->
+                    <div class="share-section">
+                        <h3>Bagikan Artikel Ini</h3>
+                        <div class="share-buttons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com/artikel2.html"
+                                target="_blank" class="share-btn facebook">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://twitter.com/intent/tweet?url=https://yourwebsite.com/artikel2.html&text=Tektok Gunung Kawi: Ekspektasi Healing, Realita Overthinking"
+                                target="_blank" class="share-btn twitter">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="https://wa.me/?text=Baca cerita seru tektok Gunung Kawi yang penuh drama: https://yourwebsite.com/artikel2.html"
+                                target="_blank" class="share-btn whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://yourwebsite.com/artikel2.html"
+                                target="_blank" class="share-btn linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Author Profile -->
+                    <div class="author-profile">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop"
+                            alt="Dimas Aditya" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Dimas Aditya</h4>
+                            <p class="author-bio">Adventure enthusiast dan content creator yang suka banget explore
+                                gunung-gunung di Indonesia. Percaya bahwa setiap pendakian punya cerita unik yang worth
+                                it untuk dibagikan. Follow my journey!</p>
+                            <div class="author-social">
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="mailto:dimas@example.com"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Related Articles -->
+                <div class="related-articles">
+                    <h2>Artikel Terkait</h2>
+                    <div class="related-grid">
+                        <!-- Related Article 1 -->
+                        <div class="related-card">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=600&auto=format&fit=crop"
+                                alt="Gunung Merbabu" class="related-image">
+                            <div class="related-content">
+                                <h3>Pendakian Gunung Merbabu via Suwanting</h3>
+                                <p>Catatan lengkap pendakian Gunung Merbabu melalui jalur Suwanting yang menantang
+                                    dengan
+                                    pemandangan Punggung Naga yang epic.</p>
+                                <a href="artikel1.html" class="related-btn">Baca Selengkapnya</a>
+                            </div>
+                        </div>
+
+                        <!-- Related Article 2 -->
+                        <div class="related-card">
+                            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600&auto=format&fit=crop"
+                                alt="Color Palette" class="related-image">
+                            <div class="related-content">
+                                <h3>Choosing the Perfect Palette</h3>
+                                <p>A guide to selecting warm, elegant colors that complement your minimalist furniture
+                                    and enhance your space.</p>
+                                <a href="artikel3.html" class="related-btn">Baca Selengkapnya</a>
+                            </div>
+                        </div>
+
+                        <!-- Related Article 3 -->
+                        <div class="related-card">
+                            <img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=600&auto=format&fit=crop"
+                                alt="Tips Mendaki" class="related-image">
+                            <div class="related-content">
+                                <h3>Cara Menghadapi Panic Attack di Gunung</h3>
+                                <p>Tips dan trik untuk tetap calm dan handle panic attack saat mendaki. Mental health
+                                    matters!</p>
+                                <a href="#" class="related-btn">Baca Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA Section -->
+        <section class="cta-section"
+            style="background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%); padding: 80px 0; text-align: center; color: white;">
+            <div class="container">
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px; color: white;">Ready to Transform Your Space?</h2>
+                <p
+                    style="font-size: 1.1rem; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; opacity: 0.95;">
+                    Discover our collection of minimalist bar stools and elevate your interior design today.
+                </p>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <a href="products.html" class="btn"
+                        style="background-color: white; color: var(--color-primary-dark); padding: 15px 40px; font-weight: 600;">Shop
+                        Now</a>
+                    <a href="https://wa.me/628123456789" class="btn"
+                        style="background-color: transparent; color: white; border: 2px solid white; padding: 15px 40px; font-weight: 600;">Contact
+                        Us</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Floating Buttons -->
+    <a href="#" class="floating-btn back-to-top" id="backToTop" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <a href="https://wa.me/628123456789" class="floating-btn whatsapp-btn" target="_blank"
+        aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">StoolMart</a>
+                    <p>The contrast between those elements creates a highly unique modern look.</p>
+                    <div class="social-links" style="margin-top: 20px;">
+                        <a href="https://www.instagram.com" target="_blank" style="margin-right: 15px;"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com" target="_blank" style="margin-right: 15px;"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="_blank" style="margin-right: 15px;"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="partnership.html">Partnership</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="about-us.html">About</a></li>
+                        <li><a href="products.html">Features</a></li>
+                        <li><a href="support.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="https://ar-shakir.com" target="_blank">ar-shakir.com</a></li>
+                        <li><a href="tel:+15646445965">+1564-644-5965</a></li>
+                        <li><a href="https://maps.google.com/?q=Los+Angeles,+CA" target="_blank">Los Angeles, CA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 StoolMart All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        // Table of Contents Toggle
+        function toggleTOC() {
+            const tocList = document.getElementById('tocList');
+            const tocToggle = document.getElementById('tocToggle');
+
+            tocList.classList.toggle('collapsed');
+            tocToggle.classList.toggle('collapsed');
+        }
+
+        // Smooth scroll for TOC links
+        document.querySelectorAll('.toc-list a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Back to top button functionality
+        window.addEventListener('scroll', function () {
+            const backToTop = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        document.getElementById('backToTop').addEventListener('click', function (e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+
+</html>
